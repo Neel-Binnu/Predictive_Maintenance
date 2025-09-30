@@ -1,0 +1,58 @@
+About Dataset
+🛢️ Predictive Maintenance for Oil & Gas Pipelines – 1000
+📌 Dataset Overview
+This dataset contains 1,000 samples of pipeline data collected from the oil and gas industry, intended for use in predictive maintenance modeling. Each record represents sensor and operational data from pipelines, with corresponding labels indicating whether maintenance was required.
+
+The goal is to develop models that can predict potential failures or maintenance needs before they occur, ensuring pipeline safety, reducing downtime, and minimizing operational costs.
+
+🧾 Data Features
+Each row in the dataset corresponds to a specific pipeline segment or instance and includes the following:
+
+Pipe Size: Diameter of the pipeline
+
+Thickness: Measured wall thickness of the pipe
+
+Material: Type of material used (e.g., steel, composite)
+
+Maximum Pressure: Peak pressure experienced (psi)
+
+Temperature: Internal fluid temperature (°C)
+
+Corrosion Impact Percentage: Estimated corrosion level (%)
+
+**Thickness Loss: **Loss of wall thickness due to wear or corrosion
+
+Material Loss Percentage: Percentage of overall material loss
+
+Year Times: Age or time in service (years)
+
+**Conditions: **Operational condition category (Normal, Moderate, Critical)
+
+Maintenance_Required (Target): Binary label (1 = maintenance needed, 0 = no maintenance)
+
+⚠️ This is synthetic data generated to reflect realistic conditions in oil and gas operations. It is suitable for training and testing machine learning models for predictive maintenance purposes.
+
+🎯 Use Cases
+Predictive maintenance modeling
+
+Classification and anomaly detection
+
+Feature importance and sensor optimization
+
+Exploratory data analysis (EDA) for oil and gas operations
+
+📊 Ideal For
+Data scientists working on industrial or IoT data
+
+Researchers focused on fault detection or reliability engineering
+
+ML practitioners developing predictive maintenance systems
+
+🧠 Suggested ML Tasks
+Binary Classification
+
+Time-Series Analysis (if timestamped versions available)
+
+Feature Engineering for sensor-based data
+
+Model Interpretability (e.g., SHAP, LIME)
